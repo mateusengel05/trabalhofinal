@@ -22,14 +22,14 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
 						</div>
-						<input type="text" class="form-control" placeholder="ID">
+						<input type="text" class="form-control" name="nome" placeholder="ID">
 						
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-key"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="Senha">
+						<input type="password" class="form-control" name="senha" placeholder="Senha">
 					</div>
 					<div class="row align-items-center remember">
 						<input type="checkbox">Lembrar minha conta
@@ -44,11 +44,14 @@
 					Não tem uma conta?<a href="#">Registre-se</a>
 				</div>
 				<div class="d-flex justify-content-center">
-					<a href="#">Esqueceu sua senha?</a>
+					<a href="menu.php">Entrar sem logar</a>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+
+
 </body>
 </html>
