@@ -16,7 +16,7 @@
     </div>
     <div class="col">
       <input type="text" class="form-control" placeholder="Codigo">
-    </div>
+    </div>dd
   </div>
   <br>
   <button type="submit" class="btn btn-primary">Submit</button>
