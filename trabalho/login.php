@@ -48,7 +48,7 @@ require_once ('crud/crudlogin.php');
 			</div>
 			<div class="card-footer">
 				<div class="d-flex justify-content-center links">
-					Não tem uma conta?<a href="#">Registre-se</a>
+					Não tem uma conta?<a href="registrar.php">Registre-se</a>
 				</div>
 				<div class="d-flex justify-content-center">
 					<a href="menu.php">Entrar sem logar</a>
