@@ -1,3 +1,10 @@
+<?php
+require_once ('conexao.php');
+require_once ('crud/crudlogin.php');
+
+listarPessoa();
+?>
+
 <head>
 	<title>Login</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -22,7 +29,7 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
 						</div>
-						<input type="text" class="form-control" name="nome" placeholder="ID">
+						<input type="text" class="form-control" name="usuario" placeholder="ID">
 						
 					</div>
 					<div class="input-group form-group">
@@ -55,3 +62,4 @@
 
 </body>
 </html>
+
