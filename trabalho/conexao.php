@@ -1,8 +1,8 @@
 <?php
-//conectar
-function conectar () { 
-    $aParametros = 'host=127.0.0.1 port=5433 dbname=trabalho user=postgres password=postgres';
-    
-    $oConexao = pg_connect($aParametros);
-    return $oConexao;
-}
+define('HOST', '127.0.0.1');
+define('USUARIO', 'root');
+define('SENHA', '');
+define('DB', 'trabalho_web');
+
+$conexao = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ('Não foi possível conectar');
+?>
