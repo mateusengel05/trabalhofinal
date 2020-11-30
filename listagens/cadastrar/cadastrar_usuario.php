@@ -1,5 +1,5 @@
 <?php
-include_once("conexao.php");
+require('conexao.php');
 
 $login = $_POST['login'];
 $email = $_POST['email'];
@@ -15,4 +15,4 @@ mysqli_query($conexao,$query) or die ("Erro ao tentar registrar");
 mysqli_close($conexao);
 echo "Usuario cadastrado";
 ?>
-<h2><a href="index.php">Voltar a tela de login!</a></h2>
+<h2><a href="../../index.php">Voltar a tela de login!</a></h2>

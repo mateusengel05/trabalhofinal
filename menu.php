@@ -6,16 +6,15 @@
 
 <?php
 include('conexao.php');
-$query = "SELECT * FROM menu ORDER BY ordem,descricao";
-$result = mysqli_query($conexao, $query);
 ?>
-<div class="row">
-    <?php
-    foreach ($result as $linha) {
-    ?>
-        <a href="<?= $linha['endereco'] ?>" class="<?= $linha['classe'] ?>"><?= $linha['descricao'] ?></a>
-    <?php
-    }
-    ?>
-</div>
-<hr>
+
+<!-- MENU PROVISÓRIO-->
+
+<nav class="nav nav-pills flex-column flex-sm-row">
+    <a class="flex-sm-fill text-sm-center nav-link active" href="menu.php">Home</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="listagens/listagem_cidade.php">Listagem Cidade</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="listagens/listagem_estados.php">Listagem Estados</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="listagens/listagem_pessoas.php">Listagem Pessoa</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="listagens/cadastrar/cidade.php">Cad. Cidades</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="listagens/cadastrar/estados.php">Cad. Estados</a>
+</nav>

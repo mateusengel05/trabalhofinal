@@ -30,7 +30,7 @@ session_start();
                     <div class="card card-signin my-5">
                         <div class="card-body">
                             <h5 class="card-title text-center">Entrar</h5>
-                            <form action="login.php" method="POST">
+                            <form action="login/login.php" method="POST">
                                 <div class="form-label-group">
                                     <input type="text" id="inputEmail" name="login" class="form-control" placeholder="Login" required autofocus>
                                     <label for="inputEmail">Login</label>
@@ -42,7 +42,7 @@ session_start();
                                 <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Entrar</button>
                                 <hr class="my-4">
                                 <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit">Não tem uma conta?<a href="usuario.php"> Registre-se!</a></button>
-                                
+
                             </form>
                         </div>
                     </div>

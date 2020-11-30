@@ -1,9 +1,9 @@
 <?php
 session_start();
-include('conexao.php');
+include('../conexao.php');
 
 if(empty($_POST['login']) || empty($_POST['password'])) {
-	header('Location: index.php');
+	header('Location: ../index.php');
 	exit();
 }
 
@@ -16,10 +16,10 @@ $row = mysqli_num_rows($result);
 
 if($row == 1) {
 	$_SESSION['login'] = $usuario;
-	header('Location: menu.php');
+	header('Location: ../menu.php');
 	exit();
 } else {
 	$_SESSION['nao_autenticado'] = true;
-	header('Location: index.php');
+	header('Location: ../index.php');
 	exit();
 }
