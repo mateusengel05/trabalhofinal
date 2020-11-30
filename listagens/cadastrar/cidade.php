@@ -8,24 +8,27 @@
         <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
             <div class="card card-signin my-5">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Entrar</h5>
+                    <h5 class="card-title text-center">Registrar cidade</h5>
 
                     <form action="cadastrar_cidade.php" method="POST">
                         <div class="form-label-group">
+                            <label for="inputEmail">Codigo</label>   
                             <input type="number" id="inputEmail" name="codigo" class="form-control" placeholder="Codigo" required autofocus>
-                            <label for="inputEmail">Codigo</label>
                         </div>
                         <div class="form-label-group">
+                            <label for="inputPassword">Nome</label>   
                             <input type="text" id="inputPassword" name="nome" class="form-control" placeholder="Nome" required>
-                            <label for="inputPassword">Nome</label>
                         </div>
                         <div class="form-label-group">
+                            <label for="inputPassword">Estado</label> 
                             <input type="number" id="inputPassword" name="estado" class="form-control" placeholder="Sigla" required>
-                            <label for="inputPassword">Estado</label>
+                            <br>
                         </div>
                         <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Registrar</button>
                         <hr class="my-4">
                     </form>
+
+                    
                 </div>
             </div>
         </div>

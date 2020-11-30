@@ -8,12 +8,13 @@
         <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
             <div class="card card-signin my-5">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Entrar</h5>
+                    <h5 class="card-title text-center">Registrar pessoa</h5>
 
                     <form action="cadastrar_pessoa.php" method="POST">
                         <div class="form-label-group">
+                            <label for="inputEmail">Nome</label>   
                             <input type="text" id="inputEmail" name="nome" class="form-control" placeholder="Nome da pessoa" required>
-                            <label for="inputEmail">Nome</label>
+                            <br>
                         </div>
                         <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Entrar</button>
                         <hr class="my-4">

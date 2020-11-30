@@ -8,20 +8,22 @@
         <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
             <div class="card card-signin my-5">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Entrar</h5>
+                    <h5 class="card-title text-center">Registrar estado</h5>
 
                     <form action="cadastrar_estados.php" method="POST">
                         <div class="form-label-group">
-                            <input type="text" id="inputEmail" name="sigla" class="form-control" placeholder="Sigla" maxlength="2" required autofocus>
                             <label for="inputEmail">Sigla</label>
+                            <input type="text" id="inputEmail" name="sigla" class="form-control" placeholder="Sigla" maxlength="2" required autofocus>
                         </div>
                         <div class="form-label-group">
-                            <input type="text" id="inputPassword" name="nome" class="form-control" placeholder="Nome" required>
                             <label for="inputPassword">Nome</label>
+                            <input type="text" id="inputPassword" name="nome" class="form-control" placeholder="Nome" required>
+                            <br>
                         </div>
                         <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Registrar</button>
                         <hr class="my-4">
                     </form>
+                    
                 </div>
             </div>
         </div>
