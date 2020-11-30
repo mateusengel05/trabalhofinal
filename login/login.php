@@ -10,7 +10,7 @@ if(empty($_POST['login']) || empty($_POST['password'])) {
 $login = mysqli_real_escape_string($conexao, $_POST['login']);
 $password = mysqli_real_escape_string($conexao, $_POST['password']);
 
-$query = "SELECT login FROM usuarios WHERE login = '{$login}' and password = '{$password}'";
+$query = "SELECT login FROM usuarios WHERE login = '{$login}' and password = md5('{$password}')";
 $result = mysqli_query($conexao, $query);
 $row = mysqli_num_rows($result);
 

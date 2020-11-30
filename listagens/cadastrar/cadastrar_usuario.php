@@ -4,7 +4,7 @@ require('conexao.php');
 $login = $_POST['login'];
 $email = $_POST['email'];
 $nome = $_POST['nome'];
-$senha = $_POST['senha'];
+$senha = md5($_POST['senha']);
 if (!$conexao) {
     die ('Não conectou ao banco');
 }

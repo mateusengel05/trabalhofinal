@@ -41,7 +41,7 @@ session_start();
                                 </div>
                                 <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Entrar</button>
                                 <hr class="my-4">
-                                <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit">Não tem uma conta?<a href="usuario.php"> Registre-se!</a></button>
+                                <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit">Não tem uma conta?<a href="listagens/cadastrar/usuario.php"> Registre-se!</a></button>
 
                             </form>
                         </div>
