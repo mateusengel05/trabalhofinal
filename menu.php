@@ -17,6 +17,7 @@ include('conexao.php');
     <a class="flex-sm-fill text-sm-center nav-link" href="listagens/listagem_pessoas.php">Listagem Pessoa</a>
     <a class="flex-sm-fill text-sm-center nav-link" href="listagens/cadastrar/cidade.php">Cad. Cidades</a>
     <a class="flex-sm-fill text-sm-center nav-link" href="listagens/cadastrar/pessoa.php">Cad. Pessoas</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="index.php">Sair</a>
 </nav>
 
 <img src="https://i.pinimg.com/originals/be/df/c7/bedfc79f12ff213e9d8cc5e504a064fd.jpg">

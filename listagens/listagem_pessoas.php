@@ -10,6 +10,7 @@
     <a class="flex-sm-fill text-sm-center nav-link" href="listagem_pessoas.php">Listagem Pessoa</a>
     <a class="flex-sm-fill text-sm-center nav-link" href="cadastrar/cidade.php">Cad. Cidades</a>
     <a class="flex-sm-fill text-sm-center nav-link" href="cadastrar/pessoa.php">Cad. Pessoas</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="../index.php">Sair</a>
 </nav>
 <?php
 include('cadastrar/conexao.php');
