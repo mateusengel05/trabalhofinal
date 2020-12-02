@@ -31,6 +31,7 @@ $result = mysqli_query($conexao, $query);
             <td><?php echo $row['nome'] ?></td>
             <td>
                 <?php echo " <a href='remover/del_estados.php?id=" . $row['id'] . "'>Remover</a>" ?>
+                <?php echo " <a href='alterar/alt_estados.php?id=" . $row['id'] . "'>Alterar</a>" ?>
             </td>
         </tr>
     <?php  } ?>
